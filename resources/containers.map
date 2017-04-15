@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../assets/css/resources/containers.css",
+	"sources": [
+		"../assets/css/resources/containers.scss"
+	],
+	"sourcesContent": [
+		".content {\r\n  display: block;\r\n  margin: 0 auto;\r\n  max-width: 1400px;\r\n  background-color: red;\r\n}\r\n"
+	],
+	"mappings": ";AAAA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,KAAM;EACf,MAAM,EAAE,MAAO;EACf,SAAS,EAAE,MAAO;EAClB,gBAAgB,EAAE,GAAI;CACvB",
+	"names": []
+}

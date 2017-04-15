@@ -1,0 +1,65 @@
+/*
+Theme Name: noframe
+Theme URI: http://noframe.photography
+Author: Martin Martev
+Author URI: http://noframe.photography
+Description: Custom theme for a photography studio
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: noframe
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Grid
+3.0 Typography
+4.o Color
+5.0 Containers
+6.0 Front page cards
+todo Footer
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Normalize
+Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
+--------------------------------------------------------------*/
+
+@import 'resources/base';
+
+/*--------------------------------------------------------------
+2.0 Grid
+Styles based on purecss.io
+--------------------------------------------------------------*/
+@import 'resources/grid';
+
+/*--------------------------------------------------------------
+3.0 Typography
+Styles based on mdc-web
+--------------------------------------------------------------*/
+
+@import 'resources/typography';
+/*--------------------------------------------------------------
+4.0 Color
+Styles based on mdc-web
+--------------------------------------------------------------*/
+@import 'resources/color';
+
+/*--------------------------------------------------------------
+5.0 Containers
+--------------------------------------------------------------*/
+@import 'resources/containers';
+
+/*--------------------------------------------------------------
+6.0 Front page cards
+--------------------------------------------------------------*/
+@import 'resources/cards-front-page';
+/*--------------------------------------------------------------
+todo Footer
+--------------------------------------------------------------*/
+@import 'resources/footer';
