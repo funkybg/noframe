@@ -27,7 +27,7 @@ get_header(); ?>
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
 			    	<polygon fill="#ffffff" points="100,100 0,0 0,100"/>
 			  	</svg>
-					<span class="mdc-typography--caption mdl-color-text--white mdl-color--orange-400"><i class="material-icons">toys</i>noframe KIDS</span>
+					<span class="mdc-typography--caption mdl-color-text--white mdl-color--orange-400"><i class="material-icons">toys</i><span class="card__front-label">noframe KIDS</span></span>
 				</div>
 			</div>
 			<div class="card__front-content padding-16">
@@ -41,12 +41,13 @@ get_header(); ?>
 	<div class="card__front">
 		<a href="#" class="card__front-link">
 			<div class="card__front-image">
-				<img class="pure-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/sample-kids.jpg" alt="No frame photography kids">
+				<img class="pure-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/sample-portrait.jpg" alt="No frame photography kids">
 				<div class="card__front-shape">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
 			    	<polygon fill="#ffffff" points="100,100 0,0 0,100"/>
 			  	</svg>
-					<span class="mdc-typography--caption mdl-color-text--white mdl-color--indigo-400"><i class="material-icons">camera</i>noframe PORTRAITS</span>
+					<!-- <span class="mdc-typography--caption mdl-color-text--white mdl-color--indigo-400"><i class="material-icons">camera</i><span class="card__front-label">noframe PORTRAITS</span></span> -->
+					<span class="mdc-typography--caption mdl-color-text--white mdl-color--indigo-400">noframe PORTRAITS</span>
 				</div>
 			</div>
 			<div class="card__front-content padding-16">
@@ -65,7 +66,7 @@ get_header(); ?>
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
 			    	<polygon fill="#ffffff" points="100,100 0,0 0,100"/>
 			  	</svg>
-					<span class="mdc-typography--caption mdl-color-text--white mdl-color--blue-500"><i class="material-icons">business</i>noframe BUSINESS	</span>
+					<span class="mdc-typography--caption mdl-color-text--white mdl-color--blue-500"><i class="material-icons">business</i><span class="card__front-label">noframe BUSINESS</span></span>
 				</div>
 			</div>
 			<div class="card__front-content padding-16">
