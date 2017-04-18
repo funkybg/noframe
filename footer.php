@@ -14,9 +14,5 @@
 
 ?>
 		<?php wp_footer(); ?>
- 		</div>
-		<div class="footer mdc-typographt-caption">
-			Licence details
-		</div>
 	</body>
 </html>

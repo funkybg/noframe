@@ -34,4 +34,3 @@
 		<?php wp_head(); ?>
   </head>
 	<body class="mdc-typography mdl-color-text--blue-grey-800">
-		<div class="pure-g content">
