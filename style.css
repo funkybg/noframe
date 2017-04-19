@@ -3688,7 +3688,7 @@ todo Media queries
     position: absolute;
     width: 100%;
     background-color: #607D8B !important;
-    background-color: rgba(38, 50, 56, 0.4) !important;
+    background-color: rgba(38, 50, 56, 0.3) !important;
   }
 
   /* line 19, assets/css/resources/_mediaqueries.scss */
