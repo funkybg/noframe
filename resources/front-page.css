@@ -1,58 +1,72 @@
 /* line 1, ../assets/css/resources/front-page.scss */
-.front-page--left {
+.front-page--right {
   height: 100%;
-  width: 30%;
+  width: 50%;
   padding: 16px;
   position: relative;
   display: block;
   float: left;
   z-index: 2;
   text-align: center;
-  box-shadow: 5px 0px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
-  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjOWU5ZTllIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiM4ODgiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=");
+  display: block;
 }
 
-/* line 13, ../assets/css/resources/front-page.scss */
-.front-page--left > h1 {
+/* line 12, ../assets/css/resources/front-page.scss */
+.front-page--right-inner {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 19, ../assets/css/resources/front-page.scss */
+.front-page--right-title {
   font-size: 4rem;
+  font-size: 4vw;
   font-weight: 300;
 }
 
-/* line 17, ../assets/css/resources/front-page.scss */
-.front-page--left-action {
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 40px;
-  width: calc(100% - 36px);
+/* line 24, ../assets/css/resources/front-page.scss */
+.front-page--right-action {
+  margin-top: 40px;
 }
 
-/* line 23, ../assets/css/resources/front-page.scss */
-.front-page--left-action > h1 {
+/* line 27, ../assets/css/resources/front-page.scss */
+.front-page--right-action h1 {
   padding: 16px;
-  border: 3px solid #fff;
+  border-radius: 5px;
   display: inline-block;
+  background-color: #FF5252;
+  font-size: 1.3rem;
+  font-weight: 400;
+  box-shadow: 5px 0px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  transition: background-color 0.3s;
 }
 
-/* line 28, ../assets/css/resources/front-page.scss */
-.front-page--left-menu {
-  position: absolute;
-  top: 35%;
-  width: calc(100% - 36px);
-  font-size: 2rem;
-  font-weight: 300;
+/* line 37, ../assets/css/resources/front-page.scss */
+.front-page--right-button:hover {
+  background-color: #FF8A80;
 }
 
-/* line 35, ../assets/css/resources/front-page.scss */
-.front-page--right {
+/* line 40, ../assets/css/resources/front-page.scss */
+.front-page--right-message p {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+/* line 45, ../assets/css/resources/front-page.scss */
+.front-page--left {
   height: 100%;
-  width: 70%;
+  width: 50%;
   position: relative;
   display: block;
   float: left;
   z-index: 1;
 }
 
-/* line 44, ../assets/css/resources/front-page.scss */
+/* line 54, ../assets/css/resources/front-page.scss */
 .front-page--container {
   height: 100%;
   width: 100%;
@@ -65,46 +79,39 @@
   margin: 0px;
 }
 
-/* line 55, ../assets/css/resources/front-page.scss */
+/* line 65, ../assets/css/resources/front-page.scss */
 .slider--container {
-  position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
-  right: 0;
+  position: relative;
+  display: block;
 }
 
-/* line 62, ../assets/css/resources/front-page.scss */
+/* line 71, ../assets/css/resources/front-page.scss */
 .slide {
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  display: block;
   color: transparent;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-/* line 73, ../assets/css/resources/front-page.scss */
+/* line 83, ../assets/css/resources/front-page.scss */
 .slider--slide-1 {
   background-image: url(../noframe/assets/images/sample-kids.jpg);
 }
 
-/* line 76, ../assets/css/resources/front-page.scss */
+/* line 86, ../assets/css/resources/front-page.scss */
 .slider--slide-2 {
   background-image: url(../noframe/assets/images/sample-kids2.jpg);
 }
 
-/* line 80, ../assets/css/resources/front-page.scss */
-.front-page--logo {
-  position: relative;
-  text-align: center;
-  text-rendering: optimizeLegibility;
-}
-
-/* line 85, ../assets/css/resources/front-page.scss */
+/* line 89, ../assets/css/resources/front-page.scss */
 .front-page--action {
   position: absolute;
   text-align: center;
@@ -112,10 +119,4 @@
   bottom: 0;
   margin-bottom: 50px;
   display: block;
-}
-
-/* line 93, ../assets/css/resources/front-page.scss */
-.front-page--action > h1 {
-  border: 4px solid #fff;
-  padding: 16px;
 }

@@ -1,0 +1,26 @@
+// FRONT PAGE
+@media (max-width: 1000px) {
+  .front-page--right-title {
+    font-size: 2.8rem;
+    font-size: 5vw;
+  }
+}
+@media (max-width: 700px) {
+  .front-page--left {
+    position: absolute;
+    width: 100%;
+  }
+  .front-page--right {
+    position: absolute;
+    width: 100%;
+    background-color: #607D8B!important;
+    background-color: rgba(38, 50, 56,0.4)!important;
+  }
+  .front-page--right-title {
+    color: #fff!important;
+    font-size: 10vw;
+  }
+  .front-page--right-message p {
+    color: #fff!important;
+  }
+}
