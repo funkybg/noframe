@@ -16,12 +16,12 @@ get_header(); ?>
   <div class="front-page--left mdl-color--blue-grey-300 mdl-color-text--white">
     <h1>NO FRAME<br />PHOTOGRAPHY</h1>
     <div class="front-page--left-menu">
-      <p class="">FAMILY</p>
-      <p class="">BUSINESS</p>
-      <p class="">PERSONAL PROJECTS</p>
+      <p class="">Семейна фотография</p>
+      <p class="">Бизнес</p>
+      <p class="">Лични проекти</p>
     </div>
     <div class="front-page--left-action">
-      <h1 class="mdc-typography--title">Explore</h1>
+      <h1 class="mdc-typography--title">Научете повече</h1>
     </div>
   </div>
   <div class="front-page--right">
