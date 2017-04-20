@@ -29,7 +29,7 @@
 
 /* line 24, ../assets/css/resources/front-page.scss */
 .front-page--right-action {
-  margin-top: 40px;
+  margin: 40px auto;
 }
 
 /* line 27, ../assets/css/resources/front-page.scss */
@@ -119,4 +119,27 @@
   bottom: 0;
   margin-bottom: 50px;
   display: block;
+}
+
+/* line 97, ../assets/css/resources/front-page.scss */
+.front-page--right-subaction {
+  display: block;
+  margin: 16px auto;
+  line-height: 25px;
+}
+
+/* line 102, ../assets/css/resources/front-page.scss */
+.front-page--right-subaction p {
+  display: inline-block;
+}
+
+/* line 105, ../assets/css/resources/front-page.scss */
+.front-page--right-subnav {
+  font-weight: 500;
+  color: #ff8a80;
+}
+
+/* line 109, ../assets/css/resources/front-page.scss */
+.front-page--right-subnav:hover {
+  color: #ff5252;
 }

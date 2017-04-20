@@ -22,7 +22,7 @@
   font-weight: 300;
 }
 .front-page--right-action {
-  margin-top: 40px;
+  margin: 40px auto;
 }
 .front-page--right-action h1 {
   padding: 16px;
@@ -93,4 +93,19 @@
   bottom: 0;
   margin-bottom: 50px;
   display: block;
+}
+.front-page--right-subaction {
+  display: block;
+  margin: 16px auto;
+  line-height: 25px;
+}
+.front-page--right-subaction p {
+  display: inline-block;
+}
+.front-page--right-subnav {
+  font-weight: 500;
+  color: #ff8a80;
+}
+.front-page--right-subnav:hover {
+  color: #ff5252;
 }
