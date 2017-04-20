@@ -23,7 +23,7 @@ get_header(); ?>
         <p>Най-доброто място за семейна фотография,<br />фирмени снимки и лични проекти!</p>
       </div>
       <div class="front-page--right-action">
-        <a href="/sample-page/">
+        <a href="/learn-more/">
           <h1 class="front-page--right-button mdc-typography--title mdl-color-text--white">Научете повече</h1>
         </a>
       </div>
