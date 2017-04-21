@@ -540,38 +540,37 @@ Styles based on purecss.io
   display: block;
   padding: 16px;
   margin: 0;
-  width: 100%;
   float: left;
 }
 
-/* line 28, assets/css/resources/_grid.scss */
+/* line 27, assets/css/resources/_grid.scss */
 .width-1 {
   width: 100%;
 }
 
-/* line 31, assets/css/resources/_grid.scss */
+/* line 30, assets/css/resources/_grid.scss */
 .width-1-2 {
   width: 50%;
 }
 
-/* line 34, assets/css/resources/_grid.scss */
+/* line 33, assets/css/resources/_grid.scss */
 .width-1-3 {
   width: 33.33333%;
 }
 
-/* line 37, assets/css/resources/_grid.scss */
+/* line 36, assets/css/resources/_grid.scss */
 .width-2-3 {
   width: 66.66666%;
 }
 
-/* line 40, assets/css/resources/_grid.scss */
+/* line 39, assets/css/resources/_grid.scss */
 .center {
   display: block;
   margin: 0 auto;
   float: none;
 }
 
-/* line 45, assets/css/resources/_grid.scss */
+/* line 44, assets/css/resources/_grid.scss */
 .content {
   max-width: 1200px;
 }
@@ -3820,15 +3819,30 @@ todo Media queries
     font-size: 2.8rem;
     font-size: 5vw;
   }
+
+  /* line 7, assets/css/resources/_mediaqueries.scss */
+  .width-1-2 {
+    width: 100%;
+  }
+
+  /* line 10, assets/css/resources/_mediaqueries.scss */
+  .width-1-3 {
+    width: 100%;
+  }
+
+  /* line 13, assets/css/resources/_mediaqueries.scss */
+  .width-2-3 {
+    width: 100%;
+  }
 }
 @media (max-width: 700px) {
-  /* line 9, assets/css/resources/_mediaqueries.scss */
+  /* line 18, assets/css/resources/_mediaqueries.scss */
   .front-page--left {
     position: absolute;
     width: 100%;
   }
 
-  /* line 13, assets/css/resources/_mediaqueries.scss */
+  /* line 22, assets/css/resources/_mediaqueries.scss */
   .front-page--right {
     position: absolute;
     width: 100%;
@@ -3836,14 +3850,14 @@ todo Media queries
     background-color: rgba(38, 50, 56, 0.3) !important;
   }
 
-  /* line 19, assets/css/resources/_mediaqueries.scss */
+  /* line 28, assets/css/resources/_mediaqueries.scss */
   .front-page--right-title {
     color: #fff !important;
     font-size: 10vw;
   }
 
-  /* line 23, assets/css/resources/_mediaqueries.scss */
-  .front-page--right-message p {
+  /* line 32, assets/css/resources/_mediaqueries.scss */
+  .front-page--right-message p, .front-page--right-subaction span, .front-page--right-subnav {
     color: #fff !important;
   }
 }
