@@ -7,3 +7,11 @@ setInterval(function() {
     .end()
     .appendTo('.slider--container');
 },  6000);
+
+$("[data-trigger=scroll]").click(function(){
+	var target = $(this).attr('data-target');
+	var scrollTo = $('#' + target);
+	$('html, body').animate({
+		scrollTop: scrollTo.offset().top
+	}, 300);
+});

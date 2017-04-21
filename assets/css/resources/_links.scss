@@ -1,0 +1,18 @@
+.button--more {
+  position: relative;
+  display: block;
+  float: left;
+  padding: 8px 24px;
+  margin-top: 24px;
+  color: #546E7A;
+  border: 1px solid #546E7A;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.button--more:hover {
+  color: #00B0FF;
+  border: 1px solid #00B0FF;
+}
