@@ -22,6 +22,7 @@ Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-rea
 6.0 Front page cards
 todo Footer
 todo Menu
+todo Sidebar
 todo Links
 todo Media queries
 
@@ -592,6 +593,11 @@ Styles based on purecss.io
 /* line 81, assets/css/resources/_grid.scss */
 .content {
   max-width: 1200px;
+}
+
+/* line 84, assets/css/resources/_grid.scss */
+.content--with-sidebar {
+  margin-left: 240px;
 }
 
 /*--------------------------------------------------------------
@@ -3769,26 +3775,22 @@ todo Footer
 todo Menu
 --------------------------------------------------------------*/
 /* line 1, assets/css/resources/_menu.scss */
-.menu-main-container {
-  position: relative;
-  display: block;
+.menu--header-container {
   height: 100%;
-  float: none;
+  margin: 0 auto;
+  z-index: 2;
 }
 
-/* line 7, assets/css/resources/_menu.scss */
-.menu {
-  display: block;
-  position: relative;
+/* line 6, assets/css/resources/_menu.scss */
+.menu--header-menu {
   height: 70px;
   padding: 16px 40px;
-  margin: 0 auto;
   line-height: 38px;
   font-size: 16px;
-  float: left;
+  margin: 0;
 }
 
-/* line 17, assets/css/resources/_menu.scss */
+/* line 13, assets/css/resources/_menu.scss */
 .menu-item {
   list-style: none;
   padding: 0 16px;
@@ -3796,7 +3798,20 @@ todo Menu
 }
 
 /*--------------------------------------------------------------
-todo Menu
+todo Sidebar
+--------------------------------------------------------------*/
+/* line 1, assets/css/resources/_sidebar.scss */
+.menu--sidebar {
+  position: absolute;
+  width: 240px;
+  top: 70px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/*--------------------------------------------------------------
+todo Links
 --------------------------------------------------------------*/
 /* line 1, assets/css/resources/_links.scss */
 .button--more {

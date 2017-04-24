@@ -1,18 +1,14 @@
-.menu-main-container {
-  position: relative;
-  display: block;
+.menu--header-container {
   height: 100%;
-  float: none;
+  margin: 0 auto;
+  z-index: 2;
 }
-.menu {
-  display: block;
-  position: relative;
+.menu--header-menu {
   height: 70px;
   padding: 16px 40px;
-  margin: 0 auto;
   line-height: 38px;
   font-size: 16px;
-  float: left;
+  margin: 0;
 }
 .menu-item {
   list-style: none;
