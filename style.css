@@ -30,28 +30,12 @@ todo Media queries
 1.0 Normalize
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
-/*!
-Pure v0.6.2
-Copyright 2013 Yahoo!
-Licensed under the BSD License.
-https://github.com/yahoo/pure/blob/master/LICENSE.md
-*/
-/*!
-normalize.css v^3.0 | MIT License | git.io/normalize
-Copyright (c) Nicolas Gallagher and Jonathan Neal
-*/
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
- *    without disabling user zoom.
- */
-/* line 18, assets/css/resources/_base.scss */
+/* line 1, assets/css/resources/_base.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 21, assets/css/resources/_base.scss */
+/* line 4, assets/css/resources/_base.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -64,7 +48,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 31, assets/css/resources/_base.scss */
+/* line 14, assets/css/resources/_base.scss */
 body {
   margin: 0;
 }
@@ -77,7 +61,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 45, assets/css/resources/_base.scss */
+/* line 28, assets/css/resources/_base.scss */
 article,
 aside,
 details,
@@ -98,7 +82,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 66, assets/css/resources/_base.scss */
+/* line 49, assets/css/resources/_base.scss */
 audio,
 canvas,
 progress,
@@ -113,7 +97,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 79, assets/css/resources/_base.scss */
+/* line 62, assets/css/resources/_base.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -123,7 +107,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
-/* line 89, assets/css/resources/_base.scss */
+/* line 72, assets/css/resources/_base.scss */
 [hidden],
 template {
   display: none;
@@ -134,7 +118,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 101, assets/css/resources/_base.scss */
+/* line 84, assets/css/resources/_base.scss */
 a {
   background-color: transparent;
   text-decoration: none;
@@ -144,7 +128,7 @@ a {
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-/* line 111, assets/css/resources/_base.scss */
+/* line 94, assets/css/resources/_base.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -155,7 +139,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 123, assets/css/resources/_base.scss */
+/* line 106, assets/css/resources/_base.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -163,7 +147,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 131, assets/css/resources/_base.scss */
+/* line 114, assets/css/resources/_base.scss */
 b,
 strong {
   font-weight: bold;
@@ -172,7 +156,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 140, assets/css/resources/_base.scss */
+/* line 123, assets/css/resources/_base.scss */
 dfn {
   font-style: italic;
 }
@@ -181,7 +165,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 149, assets/css/resources/_base.scss */
+/* line 132, assets/css/resources/_base.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -190,7 +174,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 158, assets/css/resources/_base.scss */
+/* line 141, assets/css/resources/_base.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -199,7 +183,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 167, assets/css/resources/_base.scss */
+/* line 150, assets/css/resources/_base.scss */
 small {
   font-size: 80%;
 }
@@ -207,7 +191,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 175, assets/css/resources/_base.scss */
+/* line 158, assets/css/resources/_base.scss */
 sub,
 sup {
   font-size: 75%;
@@ -216,12 +200,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 183, assets/css/resources/_base.scss */
+/* line 166, assets/css/resources/_base.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 187, assets/css/resources/_base.scss */
+/* line 170, assets/css/resources/_base.scss */
 sub {
   bottom: -0.25em;
 }
@@ -231,7 +215,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 198, assets/css/resources/_base.scss */
+/* line 181, assets/css/resources/_base.scss */
 img {
   border: 0;
 }
@@ -239,7 +223,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 206, assets/css/resources/_base.scss */
+/* line 189, assets/css/resources/_base.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -249,7 +233,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 217, assets/css/resources/_base.scss */
+/* line 200, assets/css/resources/_base.scss */
 figure {
   margin: 1em 40px;
 }
@@ -257,7 +241,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 225, assets/css/resources/_base.scss */
+/* line 208, assets/css/resources/_base.scss */
 hr {
   box-sizing: content-box;
   height: 0;
@@ -266,7 +250,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 234, assets/css/resources/_base.scss */
+/* line 217, assets/css/resources/_base.scss */
 pre {
   overflow: auto;
 }
@@ -274,7 +258,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 242, assets/css/resources/_base.scss */
+/* line 225, assets/css/resources/_base.scss */
 code,
 kbd,
 pre,
@@ -295,7 +279,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 265, assets/css/resources/_base.scss */
+/* line 248, assets/css/resources/_base.scss */
 button,
 input,
 optgroup,
@@ -312,7 +296,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 279, assets/css/resources/_base.scss */
+/* line 262, assets/css/resources/_base.scss */
 button {
   overflow: visible;
 }
@@ -323,7 +307,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 290, assets/css/resources/_base.scss */
+/* line 273, assets/css/resources/_base.scss */
 button,
 select {
   text-transform: none;
@@ -336,7 +320,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 303, assets/css/resources/_base.scss */
+/* line 286, assets/css/resources/_base.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -350,7 +334,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 315, assets/css/resources/_base.scss */
+/* line 298, assets/css/resources/_base.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -359,7 +343,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 324, assets/css/resources/_base.scss */
+/* line 307, assets/css/resources/_base.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -370,7 +354,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 335, assets/css/resources/_base.scss */
+/* line 318, assets/css/resources/_base.scss */
 input {
   line-height: normal;
 }
@@ -382,7 +366,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 347, assets/css/resources/_base.scss */
+/* line 330, assets/css/resources/_base.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -396,7 +380,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 359, assets/css/resources/_base.scss */
+/* line 342, assets/css/resources/_base.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -406,7 +390,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
-/* line 369, assets/css/resources/_base.scss */
+/* line 352, assets/css/resources/_base.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -419,7 +403,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 380, assets/css/resources/_base.scss */
+/* line 363, assets/css/resources/_base.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -428,7 +412,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 389, assets/css/resources/_base.scss */
+/* line 372, assets/css/resources/_base.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -439,7 +423,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 400, assets/css/resources/_base.scss */
+/* line 383, assets/css/resources/_base.scss */
 legend {
   border: 0;
   /* 1 */
@@ -450,7 +434,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 409, assets/css/resources/_base.scss */
+/* line 392, assets/css/resources/_base.scss */
 textarea {
   overflow: auto;
 }
@@ -459,7 +443,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 418, assets/css/resources/_base.scss */
+/* line 401, assets/css/resources/_base.scss */
 optgroup {
   font-weight: bold;
 }
@@ -469,13 +453,13 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 429, assets/css/resources/_base.scss */
+/* line 412, assets/css/resources/_base.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 434, assets/css/resources/_base.scss */
+/* line 417, assets/css/resources/_base.scss */
 td,
 th {
   padding: 0;
@@ -491,7 +475,7 @@ th {
 /**
  * Always hide an element when it has the `hidden` HTML attribute.
  */
-/* line 453, assets/css/resources/_base.scss */
+/* line 436, assets/css/resources/_base.scss */
 .hidden,
 [hidden] {
   display: none !important;
@@ -501,7 +485,7 @@ th {
  * Add this class to an image to make it fit within it's fluid parent wrapper while maintaining
  * aspect ratio.
  */
-/* line 462, assets/css/resources/_base.scss */
+/* line 445, assets/css/resources/_base.scss */
 .pure-img {
   max-width: 100%;
   height: auto;
@@ -512,58 +496,99 @@ th {
 2.0 Grid
 Styles based on purecss.io
 --------------------------------------------------------------*/
-/* line 2, assets/css/resources/_grid.scss */
+/* line 1, assets/css/resources/_grid.scss */
 .grid {
-  width: 100%;
-  margin: 0 auto;
+  text-rendering: optimizespeed;
+  /* Webkit: fixes text-rendering: optimizeLegibility */
+  /* Use flexbox when possible to avoid `letter-spacing` side-effects. */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  /* Prevents distributing space between rows */
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
 }
 
-/* line 6, assets/css/resources/_grid.scss */
-.page--row {
-  width: 100%;
+/* IE10 display: -ms-flexbox (and display: flex in IE 11) does not work inside a table; fall back to block and rely on font hack */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* line 21, assets/css/resources/_grid.scss */
+  table .pure-g {
+    display: block;
+  }
+}
+/* Opera as of 12 on Windows needs word-spacing.
+   The ".opera-only" selector is used to prevent actual prefocus styling
+   and is not required in markup.
+*/
+/* line 30, assets/css/resources/_grid.scss */
+.opera-only :-o-prefocus,
+.grid {
+  word-spacing: -0.43em;
 }
 
-/* line 9, assets/css/resources/_grid.scss */
-.page--row::after {
-  content: "";
-  clear: both;
-  display: block;
+/* line 35, assets/css/resources/_grid.scss */
+.pure-u {
+  display: inline-block;
+  *display: inline;
+  /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
 }
 
-/* line 14, assets/css/resources/_grid.scss */
-.page--column {
-  padding: 16px;
-  margin: 0;
-  float: left;
+/* line 45, assets/css/resources/_grid.scss */
+.width1,
+.width1-1,
+.width1-3,
+.width2-3,
+.width3-3 {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
 }
 
-/* line 19, assets/css/resources/_grid.scss */
-.width-1 {
-  width: 100%;
+/* line 59, assets/css/resources/_grid.scss */
+.width1-3 {
+  width: 33.3333%;
+  *width: 33.3023%;
 }
 
-/* line 22, assets/css/resources/_grid.scss */
+/* line 63, assets/css/resources/_grid.scss */
 .width-1-2 {
   width: 50%;
 }
 
-/* line 25, assets/css/resources/_grid.scss */
-.width-1-3 {
-  width: 33.33%;
+/* line 66, assets/css/resources/_grid.scss */
+.width2-3 {
+  width: 66.6667%;
+  *width: 66.6357%;
 }
 
-/* line 28, assets/css/resources/_grid.scss */
-.width-2-3 {
-  width: 66.66%;
+/* line 71, assets/css/resources/_grid.scss */
+.width1,
+.width1-1,
+.width3-3 {
+  width: 100%;
 }
 
-/* line 31, assets/css/resources/_grid.scss */
+/* line 76, assets/css/resources/_grid.scss */
 .center {
   display: block;
   margin: 0 auto;
 }
 
-/* line 35, assets/css/resources/_grid.scss */
+/* line 80, assets/css/resources/_grid.scss */
 .content {
   max-width: 1200px;
 }
@@ -3593,13 +3618,13 @@ html, body {
 }
 
 /* line 10, assets/css/resources/_containers.scss */
-.height--full {
-  height: 100%;
+.padding-80-40 {
+  padding: 80px 40px;
 }
 
 /* line 13, assets/css/resources/_containers.scss */
-.margin--top-40 {
-  margin-top: 40px;
+.height--full {
+  height: 100%;
 }
 
 /*--------------------------------------------------------------
