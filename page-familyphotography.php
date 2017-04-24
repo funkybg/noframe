@@ -9,6 +9,10 @@
  * @version 1.0
  */
 get_header(); ?>
-<?php wp_nav_menu(); ?>
+<div class="grid">
+  <div class="page--row">
+    <?php wp_nav_menu(); ?>
+  </div>
+</div>
 family photography
 <?php get_footer(); ?>

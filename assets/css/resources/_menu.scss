@@ -1,16 +1,21 @@
 .menu-main-container {
+  position: relative;
   display: block;
+  height: 100%;
+  float: none;
 }
 .menu {
+  display: block;
+  position: relative;
   height: 70px;
   padding: 16px 40px;
-  margin: 0;
+  margin: 0 auto;
   line-height: 38px;
   font-size: 16px;
-  display: block;
+  float: left;
 }
 .menu-item {
   list-style: none;
-  display: inline;
   padding: 0 16px;
+  display: inline;
 }

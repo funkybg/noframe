@@ -1,25 +1,17 @@
 
 .grid {
   width: 100%;
-  margin: 0;
-  position: relative;
-  padding: 0;
-  display: block;
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+	margin: 0 auto;
 }
 .page--row {
-  position: relative;
-  display: block;
   width: 100%;
-  padding: 0;
-  margin: 0;
-  float: left;
+}
+.page--row::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 .page--column {
-  position: relative;
-  display: block;
   padding: 16px;
   margin: 0;
   float: left;
@@ -31,15 +23,14 @@
   width: 50%;
 }
 .width-1-3 {
-  width: 33.33333%;
+  width: 33.33%;
 }
 .width-2-3 {
-  width: 66.66666%;
+  width: 66.66%;
 }
 .center {
   display: block;
   margin: 0 auto;
-  float: none;
 }
 .content {
   max-width: 1200px;
