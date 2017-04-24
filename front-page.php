@@ -10,13 +10,13 @@
  */
 get_header(); ?>
 <div class="grid height--full">
-  <div class="front-page--left">
+  <div class="front-page--left width1-2">
     <div class="slider--container mdl-color--blue-100">
       <div class="slide slider--slide-1"></div>
       <div class="slide slider--slide-2"></div>
     </div>
   </div>
-  <div class="front-page--right mdl-color--grey-200">
+  <div class="front-page--right width1-2 mdl-color--grey-200">
     <div class="front-page--right-inner">
       <h1 class="front-page--right-title">NOFRAME<br />PHOTOGRAPHY</h1>
       <div class="front-page--right-message mdl-color-text--blue-grey-400">

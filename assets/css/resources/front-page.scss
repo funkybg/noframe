@@ -1,10 +1,7 @@
 .front-page--right {
   height: 100%;
-  width: 50%;
   padding: 16px;
-  z-index: 2;
   text-align: center;
-  float: left;
 }
 .front-page--right-inner {
   position: relative;
@@ -42,9 +39,6 @@
 }
 .front-page--left {
   height: 100%;
-  width: 50%;
-  float: left;
-  z-index: 1;
 }
 // Slider
 .slider--container {

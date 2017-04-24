@@ -546,6 +546,7 @@ Styles based on purecss.io
 /* line 45, assets/css/resources/_grid.scss */
 .width1,
 .width1-1,
+.width1-2,
 .width1-3,
 .width2-3,
 .width3-3 {
@@ -558,37 +559,37 @@ Styles based on purecss.io
   text-rendering: auto;
 }
 
-/* line 59, assets/css/resources/_grid.scss */
+/* line 60, assets/css/resources/_grid.scss */
 .width1-3 {
   width: 33.3333%;
   *width: 33.3023%;
 }
 
-/* line 63, assets/css/resources/_grid.scss */
-.width-1-2 {
+/* line 64, assets/css/resources/_grid.scss */
+.width1-2 {
   width: 50%;
 }
 
-/* line 66, assets/css/resources/_grid.scss */
+/* line 67, assets/css/resources/_grid.scss */
 .width2-3 {
   width: 66.6667%;
   *width: 66.6357%;
 }
 
-/* line 71, assets/css/resources/_grid.scss */
+/* line 72, assets/css/resources/_grid.scss */
 .width1,
 .width1-1,
 .width3-3 {
   width: 100%;
 }
 
-/* line 76, assets/css/resources/_grid.scss */
+/* line 77, assets/css/resources/_grid.scss */
 .center {
   display: block;
   margin: 0 auto;
 }
 
-/* line 80, assets/css/resources/_grid.scss */
+/* line 81, assets/css/resources/_grid.scss */
 .content {
   max-width: 1200px;
 }
@@ -3633,14 +3634,11 @@ html, body {
 /* line 1, assets/css/resources/front-page.scss */
 .front-page--right {
   height: 100%;
-  width: 50%;
   padding: 16px;
-  z-index: 2;
   text-align: center;
-  float: left;
 }
 
-/* line 9, assets/css/resources/front-page.scss */
+/* line 6, assets/css/resources/front-page.scss */
 .front-page--right-inner {
   position: relative;
   margin: 0 auto;
@@ -3648,19 +3646,19 @@ html, body {
   transform: translateY(-50%);
 }
 
-/* line 15, assets/css/resources/front-page.scss */
+/* line 12, assets/css/resources/front-page.scss */
 .front-page--right-title {
   font-size: 4rem;
   font-size: 4vw;
   font-weight: 300;
 }
 
-/* line 20, assets/css/resources/front-page.scss */
+/* line 17, assets/css/resources/front-page.scss */
 .front-page--right-action {
   margin: 40px auto;
 }
 
-/* line 23, assets/css/resources/front-page.scss */
+/* line 20, assets/css/resources/front-page.scss */
 .front-page--right-action h1 {
   padding: 8px 24px;
   display: inline-block;
@@ -3674,34 +3672,31 @@ html, body {
   transition: all 0.3s;
 }
 
-/* line 35, assets/css/resources/front-page.scss */
+/* line 32, assets/css/resources/front-page.scss */
 .front-page--right-button:hover {
   background-color: #0288D1;
 }
 
-/* line 38, assets/css/resources/front-page.scss */
+/* line 35, assets/css/resources/front-page.scss */
 .front-page--right-message p {
   display: inline-block;
   font-size: 1rem;
   line-height: 25px;
 }
 
-/* line 43, assets/css/resources/front-page.scss */
+/* line 40, assets/css/resources/front-page.scss */
 .front-page--left {
   height: 100%;
-  width: 50%;
-  float: left;
-  z-index: 1;
 }
 
-/* line 50, assets/css/resources/front-page.scss */
+/* line 44, assets/css/resources/front-page.scss */
 .slider--container {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-/* line 55, assets/css/resources/front-page.scss */
+/* line 49, assets/css/resources/front-page.scss */
 .slide {
   width: 100%;
   height: 100%;
@@ -3715,17 +3710,17 @@ html, body {
   background-repeat: no-repeat;
 }
 
-/* line 67, assets/css/resources/front-page.scss */
+/* line 61, assets/css/resources/front-page.scss */
 .slider--slide-1 {
   background-image: url(../noframe/assets/images/sample-kids.jpg);
 }
 
-/* line 70, assets/css/resources/front-page.scss */
+/* line 64, assets/css/resources/front-page.scss */
 .slider--slide-2 {
   background-image: url(../noframe/assets/images/sample-kids2.jpg);
 }
 
-/* line 73, assets/css/resources/front-page.scss */
+/* line 67, assets/css/resources/front-page.scss */
 .front-page--action {
   position: absolute;
   text-align: center;
@@ -3735,24 +3730,24 @@ html, body {
   display: block;
 }
 
-/* line 81, assets/css/resources/front-page.scss */
+/* line 75, assets/css/resources/front-page.scss */
 .front-page--right-subaction {
   margin: 16px auto;
   line-height: 25px;
 }
 
-/* line 85, assets/css/resources/front-page.scss */
+/* line 79, assets/css/resources/front-page.scss */
 .front-page--right-subaction p {
   display: inline-block;
 }
 
-/* line 88, assets/css/resources/front-page.scss */
+/* line 82, assets/css/resources/front-page.scss */
 .front-page--right-subnav {
   font-weight: 500;
   color: #00B0FF;
 }
 
-/* line 92, assets/css/resources/front-page.scss */
+/* line 86, assets/css/resources/front-page.scss */
 .front-page--right-subnav:hover {
   color: #0288D1;
 }
