@@ -10,8 +10,39 @@
   font-size: 16px;
   margin: 0;
 }
+.menu--header-menu > li {
+  display: inline;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 12px;
+}
 .menu-item {
   list-style: none;
-  padding: 0 16px;
-  display: inline;
+}
+.menu-item > a {
+  color: #78909c;
+}
+.menu-item:hover a {
+  color: #00B0FF;
+}
+.current-page-ancestor a, .current_page_item a {
+  color: #00B0FF;
+}
+.menu--sidebar-container {
+  padding-top: 28px;
+}
+.menu--sidebar-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.menu--sidebar-menu > li {
+  padding: 8px 0;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+.menu--sidebar-menu a {
+  display: block;
 }

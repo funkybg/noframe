@@ -29,15 +29,15 @@ get_header(); ?>
       </div>
       <div class="front-page--right-subaction">
         <span class="mdl-color-text--blue-grey-400">Или изберете категория:<br /></span>
-        <a href="/family-photography/">
+        <a href="/family-photography/portfolio/">
           <span class="front-page--right-subnav">Семейна фотография</span>
         </a>
         <span class="mdl-color-text--blue-grey-400"> / </span>
-        <a href="/business-photography/">
+        <a href="/business-photography/portfolio/">
           <span class="front-page--right-subnav">Бизнес фотография</span>
         </a>
         <span class="mdl-color-text--blue-grey-400"> / </span>
-        <a href="/personal-projects/">
+        <a href="/personal-projects/portfolio/">
           <span class="front-page--right-subnav">Лични проекти</span>
         </a>
       </div>
@@ -60,7 +60,7 @@ get_header(); ?>
     <p class="mdc-typography--body1">
       Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна.
     </p>
-    <a href="/family-photography/"
+    <a href="/family-photography/portfolio/"
        class="button--more">
       Покажи повече
     </a>
@@ -70,7 +70,7 @@ get_header(); ?>
     <p class="mdc-typography--body1">
       Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна.
     </p>
-    <a href="/business-photography/"
+    <a href="/business-photography/portfolio/"
        class="button--more">
       Покажи повече
     </a>
@@ -80,7 +80,7 @@ get_header(); ?>
     <p class="mdc-typography--body1">
       Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна.
     </p>
-    <a href="/personal-projects/"
+    <a href="/personal-projects/portfolio/"
        class="button--more">
       Покажи повече
     </a>

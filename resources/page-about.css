@@ -1,0 +1,18 @@
+/* line 1, ../assets/css/resources/page-about.scss */
+.page--about {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 6, ../assets/css/resources/page-about.scss */
+.image {
+  width: 300px;
+  height: 300px;
+  color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../noframe/assets/images/sample-kids2.jpg);
+  border-radius: 50%;
+}

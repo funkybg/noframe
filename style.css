@@ -493,6 +493,12 @@ th {
   display: block;
 }
 
+/* line 450, assets/css/resources/_base.scss */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 /*--------------------------------------------------------------
 2.0 Grid
 Styles based on purecss.io
@@ -591,7 +597,7 @@ Styles based on purecss.io
 }
 
 /* line 81, assets/css/resources/_grid.scss */
-.content {
+.width--max-1200 {
   max-width: 1200px;
 }
 
@@ -3630,6 +3636,11 @@ html, body {
 }
 
 /* line 13, assets/css/resources/_containers.scss */
+.padding-top-40 {
+  padding-top: 60px;
+}
+
+/* line 16, assets/css/resources/_containers.scss */
 .height--full {
   height: 100%;
 }
@@ -3791,10 +3802,57 @@ todo Menu
 }
 
 /* line 13, assets/css/resources/_menu.scss */
+.menu--header-menu > li {
+  display: inline;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 12px;
+}
+
+/* line 20, assets/css/resources/_menu.scss */
 .menu-item {
   list-style: none;
-  padding: 0 16px;
-  display: inline;
+}
+
+/* line 23, assets/css/resources/_menu.scss */
+.menu-item > a {
+  color: #78909c;
+}
+
+/* line 26, assets/css/resources/_menu.scss */
+.menu-item:hover a {
+  color: #00B0FF;
+}
+
+/* line 29, assets/css/resources/_menu.scss */
+.current-page-ancestor a, .current_page_item a {
+  color: #00B0FF;
+}
+
+/* line 32, assets/css/resources/_menu.scss */
+.menu--sidebar-container {
+  padding-top: 28px;
+}
+
+/* line 35, assets/css/resources/_menu.scss */
+.menu--sidebar-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* line 39, assets/css/resources/_menu.scss */
+.menu--sidebar-menu > li {
+  padding: 8px 0;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+
+/* line 46, assets/css/resources/_menu.scss */
+.menu--sidebar-menu a {
+  display: block;
 }
 
 /*--------------------------------------------------------------
@@ -3804,10 +3862,11 @@ todo Sidebar
 .menu--sidebar {
   position: absolute;
   width: 240px;
-  top: 70px;
+  top: 0px;
   left: 0;
   bottom: 0;
   z-index: 1;
+  padding: 24px;
 }
 
 /*--------------------------------------------------------------
@@ -3833,6 +3892,28 @@ todo Links
 .button--more:hover {
   color: #00B0FF;
   border: 1px solid #00B0FF;
+}
+
+/*--------------------------------------------------------------
+todo Page about
+--------------------------------------------------------------*/
+/* line 1, assets/css/resources/page-about.scss */
+.page--about {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 6, assets/css/resources/page-about.scss */
+.image {
+  width: 300px;
+  height: 300px;
+  color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../noframe/assets/images/sample-kids2.jpg);
+  border-radius: 50%;
 }
 
 /*--------------------------------------------------------------
