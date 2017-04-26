@@ -3903,9 +3903,13 @@ todo Modal about
   background-color: rgba(0, 0, 0, 0.5);
   /* Black w/ opacity */
   z-index: 900;
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
-/* line 13, assets/css/resources/_modal.scss */
+/* line 17, assets/css/resources/_modal.scss */
 .modal--image-container {
   position: relative;
   margin: auto;
@@ -3913,14 +3917,11 @@ todo Modal about
   width: auto;
   max-width: 80%;
   max-height: 100%;
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
+  background-color: #fff;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-/* line 26, assets/css/resources/_modal.scss */
+/* line 27, assets/css/resources/_modal.scss */
 .modal--button-close {
   position: absolute;
   width: 50px;
@@ -3936,7 +3937,7 @@ todo Modal about
   padding: 8px;
 }
 
-/* line 40, assets/css/resources/_modal.scss */
+/* line 41, assets/css/resources/_modal.scss */
 .modal--button-close:hover, .modal--button-close:focus {
   color: red;
   text-decoration: none;

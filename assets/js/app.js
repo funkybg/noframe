@@ -17,10 +17,9 @@ $("[data-trigger=scroll]").click(function(){
 });
 $("[data-trigger=modal]").click(function(event){
   event.preventDefault();
-  console.log('click');
   var target = $(this).attr('data-target'),
       src = $(this).attr('href');
-  $('#'+target).find('img').attr('src', src);
+  $('#'+target).find('img').attr('src', '').attr('src', src);
   $('#'+target).removeClass('hidden');
 });
 $("[data-trigger=close]").click(function(event){
