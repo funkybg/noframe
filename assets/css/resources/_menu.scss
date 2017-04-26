@@ -29,6 +29,9 @@
 .current-page-ancestor a, .current_page_item a {
   color: #00B0FF;
 }
+.menu--root li:first-child a {
+  color: #00B0FF;
+}
 .menu--sidebar-container {
   padding-top: 28px;
 }
@@ -38,7 +41,7 @@
 }
 .menu--sidebar-menu > li {
   padding: 8px 0;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   text-transform: capitalize;
   margin: 0 auto;

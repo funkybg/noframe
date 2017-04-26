@@ -9,7 +9,7 @@
  * @version 1.0
  */
 get_header(); ?>
-<div class="menu--sidebar padding-top-40">
+<div class="menu--sidebar padding-top-40 <?php if ( is_page( 'family-photography' ) ): echo 'menu--root'; endif; ?>">
   <span class="menu--sidebar-title mdl-color-text--blue-500">NOFRAME<br />PHOTOGRAPHY</span>
   <?php wp_nav_menu(array(
     'menu' => 'sidebar-family',
@@ -17,7 +17,7 @@ get_header(); ?>
     'menu_class' => 'menu--sidebar-menu'
   )) ?>
 </div>
-<div class="content--with-sidebar mdl-color--grey-200 height--full">
+<div class="content--with-sidebar height--full">
   <div class="grid">
     <?php wp_nav_menu(array(
       'menu' => 'main',
@@ -33,6 +33,8 @@ get_header(); ?>
           get_template_part( 'partials/page', 'about' );
         elseif ( is_page( 'prices' ) ):
           get_template_part( 'partials/page', 'prices' );
+        else :
+          get_template_part( 'partials/page', 'portfolio' );
       endif ?>
     </div>
   </div>

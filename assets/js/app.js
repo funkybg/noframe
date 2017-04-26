@@ -15,3 +15,14 @@ $("[data-trigger=scroll]").click(function(){
 		scrollTop: scrollTo.offset().top
 	}, 300);
 });
+$("[data-trigger=modal]").click(function(event){
+  event.preventDefault();
+  console.log('click');
+  var target = $(this).attr('data-target'),
+      src = $(this).attr('href');
+  $('#'+target).find('img').attr('src', src);
+  $('#'+target).removeClass('hidden');
+});
+$("[data-trigger=close]").click(function(event){
+  $(this).addClass('hidden');
+});

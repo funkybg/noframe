@@ -1,19 +1,19 @@
 .grid {
-    text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
+  text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
 
-    /* Use flexbox when possible to avoid `letter-spacing` side-effects. */
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+  /* Use flexbox when possible to avoid `letter-spacing` side-effects. */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 
-    /* Prevents distributing space between rows */
-    -webkit-align-content: flex-start;
-        -ms-flex-line-pack: start;
-            align-content: flex-start;
+  /* Prevents distributing space between rows */
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
 }
 
 /* IE10 display: -ms-flexbox (and display: flex in IE 11) does not work inside a table; fall back to block and rely on font hack */
@@ -29,50 +29,54 @@
 */
 .opera-only :-o-prefocus,
 .grid {
-    word-spacing: -0.43em;
+  word-spacing: -0.43em;
 }
 
 .pure-u {
-    display: inline-block;
-    *display: inline; /* IE < 8: fake inline-block */
-    zoom: 1;
-    letter-spacing: normal;
-    word-spacing: normal;
-    vertical-align: top;
-    text-rendering: auto;
+  display: inline-block;
+  *display: inline; /* IE < 8: fake inline-block */
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
 }
 
 .width1,
 .width1-1,
 .width1-2,
 .width1-3,
+.width1-4,
 .width2-3,
 .width3-3 {
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    letter-spacing: normal;
-    word-spacing: normal;
-    vertical-align: top;
-    text-rendering: auto;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
 }
 
 .width1-3 {
-    width: 33.3333%;
-    *width: 33.3023%;
+  width: 33.3333%;
+  *width: 33.3023%;
 }
 .width1-2 {
   width: 50%;
 }
 .width2-3 {
-    width: 66.6667%;
-    *width: 66.6357%;
+  width: 66.6667%;
+  *width: 66.6357%;
 }
-
+.width1-4 {
+  width: 25%;
+  *width: 24.9690%;
+}
 .width1,
 .width1-1,
 .width3-3 {
-    width: 100%;
+  width: 100%;
 }
 .center {
   display: block;

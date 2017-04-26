@@ -555,6 +555,7 @@ Styles based on purecss.io
 .width1-1,
 .width1-2,
 .width1-3,
+.width1-4,
 .width2-3,
 .width3-3 {
   display: inline-block;
@@ -566,42 +567,48 @@ Styles based on purecss.io
   text-rendering: auto;
 }
 
-/* line 60, assets/css/resources/_grid.scss */
+/* line 61, assets/css/resources/_grid.scss */
 .width1-3 {
   width: 33.3333%;
   *width: 33.3023%;
 }
 
-/* line 64, assets/css/resources/_grid.scss */
+/* line 65, assets/css/resources/_grid.scss */
 .width1-2 {
   width: 50%;
 }
 
-/* line 67, assets/css/resources/_grid.scss */
+/* line 68, assets/css/resources/_grid.scss */
 .width2-3 {
   width: 66.6667%;
   *width: 66.6357%;
 }
 
 /* line 72, assets/css/resources/_grid.scss */
+.width1-4 {
+  width: 25%;
+  *width: 24.9690%;
+}
+
+/* line 76, assets/css/resources/_grid.scss */
 .width1,
 .width1-1,
 .width3-3 {
   width: 100%;
 }
 
-/* line 77, assets/css/resources/_grid.scss */
+/* line 81, assets/css/resources/_grid.scss */
 .center {
   display: block;
   margin: 0 auto;
 }
 
-/* line 81, assets/css/resources/_grid.scss */
+/* line 85, assets/css/resources/_grid.scss */
 .width--max-1200 {
   max-width: 1200px;
 }
 
-/* line 84, assets/css/resources/_grid.scss */
+/* line 88, assets/css/resources/_grid.scss */
 .content--with-sidebar {
   margin-left: 240px;
 }
@@ -3831,26 +3838,31 @@ todo Menu
 }
 
 /* line 32, assets/css/resources/_menu.scss */
+.menu--root li:first-child a {
+  color: #00B0FF;
+}
+
+/* line 35, assets/css/resources/_menu.scss */
 .menu--sidebar-container {
   padding-top: 28px;
 }
 
-/* line 35, assets/css/resources/_menu.scss */
+/* line 38, assets/css/resources/_menu.scss */
 .menu--sidebar-title {
   font-size: 1.5rem;
   font-weight: 300;
 }
 
-/* line 39, assets/css/resources/_menu.scss */
+/* line 42, assets/css/resources/_menu.scss */
 .menu--sidebar-menu > li {
   padding: 8px 0;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   text-transform: capitalize;
   margin: 0 auto;
 }
 
-/* line 46, assets/css/resources/_menu.scss */
+/* line 49, assets/css/resources/_menu.scss */
 .menu--sidebar-menu a {
   display: block;
 }
@@ -3869,6 +3881,84 @@ todo Sidebar
   padding: 24px;
 }
 
+/*--------------------------------------------------------------
+todo Modal about
+--------------------------------------------------------------*/
+/* line 1, assets/css/resources/_modal.scss */
+.modal {
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: hidden;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black w/ opacity */
+  z-index: 900;
+}
+
+/* line 13, assets/css/resources/_modal.scss */
+.modal--image-container {
+  position: relative;
+  margin: auto;
+  display: block;
+  width: auto;
+  max-width: 80%;
+  max-height: 100%;
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+/* line 26, assets/css/resources/_modal.scss */
+.modal--button-close {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 16px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 36px;
+  transition: 0.3s;
+  padding: 8px;
+}
+
+/* line 40, assets/css/resources/_modal.scss */
+.modal--button-close:hover, .modal--button-close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes zoom {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /*--------------------------------------------------------------
 todo Links
 --------------------------------------------------------------*/
